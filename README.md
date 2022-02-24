@@ -14,7 +14,7 @@
 Para executar o projeto, siga essencialmente estes passos:
 
 - Clone este respositório:
-  `git clone https://github.com/jhordanjes/web-developer-challenge`
+  `git clone https://github.com/jhordanjes/wa`
 - Navegue até o diretório _webapp_:
   `cd webapp`
 
@@ -27,6 +27,8 @@ Para executar o projeto, siga essencialmente estes passos:
   `yarn start:dev`
 
 - Acesse a rota `http://localhost:3001/graphql` para o backend:
+
+<img src="https://github.com/jhordanjes/wa/blob/main/imgs/students.png">
 
 - Para testar as funcionalidades da API use as sequintes _queries_ ou _mutations_;
 
@@ -47,7 +49,7 @@ Para executar o projeto, siga essencialmente estes passos:
   	 ```
   ````
 
-    <img src="https://github.com/jhordanjes/wa/blob">
+    <img src="https://github.com/jhordanjes/wa/blob/main/imgs/createUser.png">
 
   - **users** – para obter todos os alunos cadastrados, execute:
 
@@ -77,7 +79,7 @@ Para executar o projeto, siga essencialmente estes passos:
   	```
   ````
 
-  <img src="https://github.com/jhordanjes/wa/blob">
+  <img src="https://github.com/jhordanjes/wa/blob/main/imgs/getUsers.png">
 
   - **removeUser** – para deletar um aluno basta enviar o código identificador como parâmetro.
 
@@ -87,6 +89,6 @@ Para executar o projeto, siga essencialmente estes passos:
    }
   ```
 
-  <img src="https://github.com/jhordanjes/wa/blob">
+  <img src="https://github.com/jhordanjes/wa/blob/main/imgs/removeUser.png">
 
 _Desenvolvido por [Jhordan Oliveira](https://github.com/jhordanjes)._
