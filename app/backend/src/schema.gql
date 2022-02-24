@@ -1,0 +1,33 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+input CreateUser {
+  cpf: String
+  email: String
+  name: String
+  sku: String
+}
+
+input ListUsers {
+  cpf: String
+  email: String
+  name: String
+  sku: String
+}
+
+type Mutation {
+  createUser(user: CreateUser!): User!
+  removeUser(sku: String!): Boolean!
+}
+
+type Query {
+  users(filters: ListUsers): [User!]!
+}
+
+type User {
+  cpf: String!
+  email: String!
+  name: String!
+  sku: String!
+}
